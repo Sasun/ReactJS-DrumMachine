@@ -7,11 +7,7 @@ function routes(app){
         router = express.Router();
 
     //Controllers ------------------------------------------------------------------------ +
-    var reactController  = require('../controllers/reactController')(app),
-    	usersController  = require('../controllers/api/usersController')(app);
-
-    //API -------------------------------------------------------------------------------- +
-	router.get('/api/users',usersController);
+    var reactController  = require('../controllers/reactController')(app);
 
     //APP -------------------------------------------------------------------------------- +
     router.get('*',reactController);
