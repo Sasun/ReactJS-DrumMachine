@@ -10,3 +10,6 @@ A simplified 909 drum machine written with ReactJS
 ##Run webapp
 	cd ./public
 	gulp
+
+##Demo
+[freemandigital.com/experiments/drummachine/](http://freemandigital.com/experiments/drummachine/)
